@@ -1,0 +1,24 @@
+2022-08-31 22:10:37,049 - log - INFO - Execution time of load_data function is: 52.48800206184387 seconds
+2022-08-31 22:11:11,219 - log - INFO - Execution time of preprocessing function is: 34.15421438217163 seconds
+2022-08-31 22:11:18,212 - log - INFO - Execution time of pca_clustering function is: 6.977609395980835 seconds
+2022-08-31 22:19:42,081 - log - INFO - Results of models' function are: 
+                         LinearRegression  Ridge  DecisionTreeRegressor  RandomForestRegressor
+R squared                            0.05   0.05                   0.91                   0.95
+Mean Absolute Error                  0.39   0.39                   0.07                   0.05
+Mean Squared Error                   0.17   0.17                   0.02                   0.01
+Root Mean Squared Error              0.41   0.41                   0.13                   0.09
+2022-08-31 22:19:42,081 - log - INFO - Execution time of models' function is: 503.8532769680023 seconds
+2022-08-31 22:26:17,545 - log - INFO - Result of best_model's function is: 
+                         RandomForestRegressor
+R squared                                 0.95
+Mean Absolute Error                       0.05
+Mean Squared Error                        0.01
+Root Mean Squared Error                   0.10
+2022-08-31 22:26:17,545 - log - INFO - Execution time of best_model's function is: 394.82101702690125 seconds
+2022-08-31 22:27:24,465 - log - INFO - Result of best_model's optimization function is: 
+                         XGBRegressor
+R squared                        0.95
+Mean Absolute Error              0.05
+Mean Squared Error               0.01
+Root Mean Squared Error          0.10
+2022-08-31 22:27:24,465 - log - INFO - Execution time of best_model's optimization function is: 65.99488282203674 seconds
